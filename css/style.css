@@ -50,6 +50,16 @@ a:hover { text-decoration: underline; }
   margin: 0 auto;
 }
 
+.avatar {
+  display: block;
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--border);
+  margin: 0 0 1.25rem;
+}
+
 .eyebrow { font-family: var(--mono); color: var(--accent); font-size: 0.85rem; margin: 0 0 0.5rem; }
 .hero h1 { font-size: 2.2rem; margin: 0 0 0.5rem; }
 .hero .role { color: var(--text); font-size: 1.1rem; margin: 0 0 0.75rem; }
