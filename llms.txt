@@ -1,0 +1,30 @@
+# Kakumanu Rajesh Kumar
+
+> Senior Backend Engineer — Polyglot Microservices (Python & Node.js) / AWS. 8+ years of experience. Based in Hyderabad, India (IST). Open to remote roles, Europe-focused (CET/CEST overlap), open worldwide.
+
+## Contact
+- Email: kakumanurajeshkumar@gmail.com
+- Email (alt): kakumanurajeshkumar@proton.me
+- LinkedIn: https://www.linkedin.com/in/rajesh-kumar-kakumanu-88b9b361
+- GitHub: https://github.com/RajeshKumar11
+- Resume (Python-framed): https://rajeshkumar11.github.io/assets/resume-python.pdf
+- Resume (Node.js-framed): https://rajeshkumar11.github.io/assets/resume-nodejs.pdf
+
+## Summary
+Senior Software Engineer specializing in production Python and polyglot microservices (FastAPI, Node.js/NestJS) on AWS serverless and cloud architectures. Expert in event-driven systems, API security (Auth0, OAuth 2.0/OIDC, JWT, RBAC), and high-throughput data layers (MongoDB/MongoEngine, PostgreSQL, MySQL). AI-native engineering background: LangChain, LangGraph, Model Context Protocol (MCP), GitHub Copilot Agent Mode, Claude Code.
+
+## Core skills
+Python (FastAPI, Flask, Django), Node.js, NestJS, Express.js, Microservices, Event-Driven Architecture, GraphQL, AWS (Lambda, API Gateway, EventBridge, SQS/SNS, CloudWatch, Cognito, S3, EC2), Docker, Docker Compose, GitHub Actions, PostgreSQL, MySQL, MongoDB, MongoEngine, SQLAlchemy, DynamoDB, Redis, Auth0, OAuth 2.0/OIDC, SAML, JWT, RBAC, React.js, Next.js, Vue.js, TypeScript, Pytest, Jest, Playwright MCP, LangChain, LangGraph, PyTorch, TensorFlow.
+
+## Experience (most recent first)
+- TAO Digital Solutions — Senior Software Engineer, Oct 2023–Present (projects: Agentic Report Validation for Oaktree Capital Management, Neuron Performance Suite for CDK Global, CareExpand EMR Platform, twiist AID System for Sequel)
+- Mobile Programming Pvt. Ltd. — Software Developer, Sept 2021–Sept 2023 (projects: Core E-commerce Microservices for CaratLane, SAP Value Lifecycle Manager, Smart Restaurant POS)
+- Consortium of Institutions of Higher Learning — Software Developer, July 2017–Aug 2021
+- GoLive Gaming Solutions Pvt. Ltd. — Game Developer, Sep 2016–Apr 2017
+
+## Education
+- Master of Technology (IT), JNTUH, Hyderabad, 2015–2017
+- Bachelor of Technology (Civil Engineering), St. Mary's Group of Institutions, 2010–2014
+
+## Full profile
+https://rajeshkumar11.github.io/ — includes detailed experience, project portfolio (public and private GitHub work), and skills breakdown.
