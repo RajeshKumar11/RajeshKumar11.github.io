@@ -26,5 +26,12 @@ Python (FastAPI, Flask, Django), Node.js, NestJS, Express.js, Microservices, Eve
 - Master of Technology (IT), JNTUH, Hyderabad, 2015–2017
 - Bachelor of Technology (Civil Engineering), St. Mary's Group of Institutions, 2010–2014
 
+## Open source contributions (merged PRs to external projects)
+- nodejs/node — 4 merged PRs (HTTP header validation, socket error handling x2, Writev crash fix)
+- microsoft/vscode — 2 merged PRs (extensions.allowed schema fix, MCP Gateway startup blocking fix)
+- Qiskit/qiskit — 1 merged PR (global_phase preservation in dagdependency_to_circuit)
+- payloadcms/payload — 1 merged PR (array-field crash fix in Globals)
+See https://rajeshkumar11.github.io/#opensource for links to each PR.
+
 ## Full profile
-https://rajeshkumar11.github.io/ — includes detailed experience, project portfolio (public and private GitHub work), and skills breakdown.
+https://rajeshkumar11.github.io/ — includes detailed experience, project portfolio (public and private GitHub work), open source contributions, and skills breakdown.

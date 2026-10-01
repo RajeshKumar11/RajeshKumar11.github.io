@@ -64,6 +64,7 @@
     <a href="#about">About</a>
     <a href="#experience">Experience</a>
     <a href="#skills">Skills</a>
+    <a href="#opensource">Open Source</a>
     <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
   </div>
@@ -334,6 +335,70 @@
         <span class="chip">API Gateway Authorizers</span>
         <span class="chip">RBAC</span>
       </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="opensource" class="section">
+  <h2>Open Source</h2>
+  <p class="section-intro">Merged pull requests to external open-source projects.</p>
+  <div class="oss-grid">
+
+    <div class="oss-card">
+      <span class="oss-repo">nodejs/node</span>
+      <h3><a href="https://github.com/nodejs/node/pull/63658" target="_blank" rel="noopener">src: fix crash when writing odd-length hex string via Writev</a></h3>
+      <p>Fixed a fatal assertion crash when writing an odd-length hex string through a batched Writev stream write, e.g. via <code>http.request</code>'s auto-corking.</p>
+      <span class="dates">Merged Jul 2026</span>
+    </div>
+
+    <div class="oss-card">
+      <span class="oss-repo">nodejs/node</span>
+      <h3><a href="https://github.com/nodejs/node/pull/61597" target="_blank" rel="noopener">http: align header value validation with Fetch spec</a></h3>
+      <p>Added relaxed HTTP header value validation (via <code>insecureHTTPParser</code>) so Node.js can interoperate with servers/clients using control characters in header values, per the Fetch spec.</p>
+      <span class="dates">Merged May 2026</span>
+    </div>
+
+    <div class="oss-card">
+      <span class="oss-repo">microsoft/vscode</span>
+      <h3><a href="https://github.com/microsoft/vscode/pull/329744" target="_blank" rel="noopener">Fix extensions.allowed schema flagging valid version arrays as invalid</a></h3>
+      <p>Fixed a regex-anchoring bug in the <code>extensions.allowed</code> JSON schema that incorrectly flagged valid version-array values as schema errors.</p>
+      <span class="dates">Merged Sep 2026</span>
+    </div>
+
+    <div class="oss-card">
+      <span class="oss-repo">microsoft/vscode</span>
+      <h3><a href="https://github.com/microsoft/vscode/pull/298040" target="_blank" rel="noopener">MCP Gateway: avoid blocking list calls on startup</a></h3>
+      <p>Stopped the MCP Gateway's tool/resource list calls from blocking on slow server startup; servers now refresh in the background instead, cutting time-to-first-token.</p>
+      <span class="dates">Merged Mar 2026</span>
+    </div>
+
+    <div class="oss-card">
+      <span class="oss-repo">nodejs/node</span>
+      <h3><a href="https://github.com/nodejs/node/pull/61770" target="_blank" rel="noopener">http: attach error handler to socket synchronously in onSocket</a></h3>
+      <p>Closed a race where socket errors could go unhandled between <code>onSocket</code> and <code>onSocketNT</code>, even with a request error handler already set.</p>
+      <span class="dates">Merged Feb 2026</span>
+    </div>
+
+    <div class="oss-card">
+      <span class="oss-repo">nodejs/node</span>
+      <h3><a href="https://github.com/nodejs/node/pull/61658" target="_blank" rel="noopener">net: defer synchronous destroy calls in internalConnect</a></h3>
+      <p>Deferred synchronous <code>socket.destroy()</code> calls in <code>internalConnect</code>/<code>internalConnectMultiple</code> so error handlers have a chance to attach before errors are emitted.</p>
+      <span class="dates">Merged Feb 2026</span>
+    </div>
+
+    <div class="oss-card">
+      <span class="oss-repo">Qiskit/qiskit</span>
+      <h3><a href="https://github.com/Qiskit/qiskit/pull/16323" target="_blank" rel="noopener">Preserve global_phase in dagdependency_to_circuit</a></h3>
+      <p>Fixed <code>dagdependency_to_circuit</code> silently dropping a circuit's <code>global_phase</code> attribute during DAGDependency-to-QuantumCircuit conversion.</p>
+      <span class="dates">Merged Jun 2026</span>
+    </div>
+
+    <div class="oss-card">
+      <span class="oss-repo">payloadcms/payload</span>
+      <h3><a href="https://github.com/payloadcms/payload/pull/15259" target="_blank" rel="noopener">fix(ui): prevent globals crash with array fields when lock state user is undefined</a></h3>
+      <p>Fixed a crash adding items to array fields in Globals when a locked document's user relationship was unpopulated (e.g. a deleted user).</p>
+      <span class="dates">Merged Jan 2026</span>
     </div>
 
   </div>

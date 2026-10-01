@@ -124,6 +124,40 @@ a:hover { text-decoration: underline; }
   color: var(--text-dim);
 }
 
+.section-intro { color: var(--text-dim); margin: -0.75rem 0 1.5rem; }
+
+code {
+  font-family: var(--mono);
+  font-size: 0.85em;
+  background: var(--bg-elevated);
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+}
+
+.oss-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.25rem; }
+
+.oss-card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.oss-repo {
+  align-self: flex-start;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--accent);
+  background: var(--accent-dim);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+.oss-card h3 { margin: 0; font-size: 1rem; }
+.oss-card p { margin: 0; color: var(--text-dim); font-size: 0.9rem; }
+.oss-card .dates { font-size: 0.8rem; }
+
 .filter-bar { display: flex; gap: 0.5rem; margin-bottom: 1.5rem; }
 .filter-btn {
   font-family: var(--mono);
