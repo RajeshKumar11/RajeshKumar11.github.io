@@ -70,7 +70,7 @@
     "name": "voter-list-data-extraction-tool",
     "displayName": "Voter List Data Pipeline (Download + OCR)",
     "description": "A Selenium + pyautogui pipeline that bulk-downloads voter-roll PDFs from a state Election Commission portal district by district, then a PDF OCR desktop GUI that extracts structured voter records from them for data-verification workflows.",
-    "impact": "Solved the portal's numeric image-verification step without a trained model: threshold the challenge image to pure black/white, slice it into fixed-width character cells, and match each cell's perceptual hash against a self-built digit template library — then drove the browser with Selenium for DOM navigation and pyautogui for the screen-level actions (native dialogs, on-screen verification) outside the DOM's reach.",
+    "impact": "Started around 2021–2022 as a personal curiosity project — could the portal's image-verification step be solved without a trained model? — and published to GitHub in 2025. Solved it with classical CV: threshold the challenge image to pure black/white, slice it into fixed-width character cells, and match each cell's perceptual hash against a self-built digit template library, no neural network involved. Combined Selenium for DOM navigation with pyautogui for the screen-level actions (native dialogs, on-screen checks) outside the DOM's reach.",
     "stack": ["Python", "Selenium", "OpenCV", "pyautogui", "Perceptual Hashing", "OCR", "PDF Processing"],
     "private": true,
     "updatedAt": "2025-08-24T16:46:15Z"
