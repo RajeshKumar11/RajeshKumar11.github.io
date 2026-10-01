@@ -94,6 +94,7 @@
       <p class="project-label">twiist™ AID System — Client: Sequel · Senior Backend Engineer (Python, Cloud &amp; Serverless) · Python, NestJS, AWS, MongoDB (MongoEngine), PostgreSQL/Sequelize, Docker &amp; Docker Compose, GitHub Actions, Auth0 &amp; AWS Cognito, Pytest, Vue.js</p>
       <ul>
         <li>Co-architected an event-driven data ingestion platform linking automated insulin delivery (AID) devices with Tidepool, Salesforce, and MuleSoft via AWS EventBridge/SQS/SNS for high-frequency glycemic telemetry and device alerts.</li>
+        <li>Built HIPAA-compliant interoperability with Tidepool's OAuth 2.0/OIDC data API by federating identity through AWS Cognito (HIPAA-eligible, BAA-covered), letting the two systems securely exchange diabetes device data without duplicating patient identity or credentials.</li>
         <li>Engineered Python Lambda microservices behind API Gateway to parse and normalize continuous glucose monitor (CGM) streams, modeling patient telemetry in MongoDB/MongoEngine with time-series indexing for low-latency clinical dashboards.</li>
         <li>Architected HIPAA-compliant REST APIs with end-to-end encryption and audit trails; secured access via Auth0 and Cognito (OAuth 2.0/OIDC, JWT, token refresh, fine-grained RBAC for patients, caregivers, clinicians).</li>
         <li>Containerized microservices with Docker/Docker Compose and automated test, security-scan, and deploy workflows via GitHub Actions.</li>
