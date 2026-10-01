@@ -46,18 +46,26 @@ a:hover { text-decoration: underline; }
 
 .hero {
   padding: 4rem 1.5rem 3rem;
-  max-width: 760px;
+  max-width: 880px;
   margin: 0 auto;
 }
 
+.hero-inner {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.hero-content { flex: 1; min-width: 0; }
+
 .avatar {
   display: block;
-  width: 96px;
-  height: 96px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid var(--border);
-  margin: 0 0 1.25rem;
+  flex-shrink: 0;
 }
 
 .eyebrow { font-family: var(--mono); color: var(--accent); font-size: 0.85rem; margin: 0 0 0.5rem; }
@@ -151,6 +159,11 @@ a:hover { text-decoration: underline; }
 .contact-list { display: flex; flex-wrap: wrap; gap: 1.25rem; }
 
 .footer { text-align: center; padding: 2rem 1.5rem; color: var(--text-dim); font-size: 0.85rem; }
+
+@media (max-width: 700px) {
+  .hero-inner { flex-direction: column; align-items: flex-start; }
+  .avatar { width: 120px; height: 120px; margin-bottom: 0.5rem; }
+}
 
 @media (max-width: 600px) {
   html { scroll-padding-top: 8.5rem; }
