@@ -1,0 +1,192 @@
+[
+  {
+    "name": "Infant-Jesus-Shrine-Emjala",
+    "displayName": "Infant Jesus Shrine, Emjala — Website",
+    "description": "A bilingual (English/Telugu) static React site for a community shrine, with client-side routing and no backend or server dependencies.",
+    "stack": ["React", "Vite", "i18n"],
+    "private": true,
+    "updatedAt": "2026-09-25T13:31:28Z"
+  },
+  {
+    "name": "tg-school",
+    "displayName": "TG School — TS Board Learning Platform",
+    "description": "Free, static, zero-backend learning web app for Telangana State Board students, pairing a Vite/TypeScript frontend with a Python content pipeline.",
+    "stack": ["TypeScript", "Vite", "Node.js", "Python", "Vitest"],
+    "impact": "Solo-built end-to-end: product design, content pipeline, and frontend.",
+    "private": true,
+    "updatedAt": "2026-09-24T07:19:29Z"
+  },
+  {
+    "name": "orchestrai-core",
+    "displayName": "OrchestrAI — Agentic AI Infrastructure (Go)",
+    "description": "A Go-based agentic AI infrastructure suite: a multi-provider LLM gateway (llm-gateway-go), an infinite-context hierarchical memory engine for coding agents (hmem-go), and the orchestration core tying them together.",
+    "stack": ["Go", "LLM Gateway Design", "Hierarchical Memory", "Agentic Systems"],
+    "impact": "Three coordinated Go modules forming a self-contained agent-infra stack.",
+    "private": true,
+    "updatedAt": "2026-08-03T18:11:38Z"
+  },
+  {
+    "name": "OllamaForge",
+    "displayName": "OllamaForge",
+    "description": "A local-first AI coding CLI for privacy-first pair programming, published as an npm package with CI.",
+    "stack": ["TypeScript", "Node.js", "Ollama", "CLI tooling"],
+    "private": true,
+    "updatedAt": "2026-05-23T17:53:11Z"
+  },
+  {
+    "name": "invisible-teleprompter-overlay",
+    "displayName": "Invisible Teleprompter Overlay",
+    "description": "A Windows desktop overlay that displays a script while recording, made invisible to OBS Studio's screen capture using the SetWindowDisplayAffinity API.",
+    "stack": ["Python", "Windows API", "Desktop"],
+    "private": true,
+    "updatedAt": "2026-03-23T13:49:21Z"
+  },
+  {
+    "name": "onestep-openclaw-setup",
+    "displayName": "OpenClaw One-Step Setup",
+    "description": "A cross-platform one-command installer for the OpenClaw tool, automating WSL2, Node.js, pnpm, and the onboarding wizard on Windows, macOS, and Linux.",
+    "stack": ["Shell", "WSL2", "Cross-platform tooling"],
+    "private": true,
+    "updatedAt": "2026-02-22T14:29:46Z"
+  },
+  {
+    "name": "claude-skills",
+    "displayName": "Claude Skills — Startup Suite",
+    "description": "A library of Claude Code skills packaging startup-operations playbooks — from idea to revenue — as reusable, AI-agent-executable workflows.",
+    "stack": ["Claude Code", "Agent Skills"],
+    "private": true,
+    "updatedAt": "2026-01-17T10:41:48Z"
+  },
+  {
+    "name": "eye_care_app",
+    "displayName": "Eye Care App",
+    "description": "A cross-platform Flutter app for eye-care reminders and exercises.",
+    "stack": ["Flutter", "Dart"],
+    "private": false,
+    "url": "https://github.com/RajeshKumar11/eye_care_app",
+    "updatedAt": "2026-01-17T09:41:41Z"
+  },
+  {
+    "name": "cto_mastery",
+    "displayName": "CTO Mastery",
+    "description": "A Flutter mobile app teaching technology-leadership skills through 45 bite-sized lessons, 225 spaced-repetition flashcards, and gamification.",
+    "stack": ["Flutter", "Dart", "Spaced Repetition"],
+    "private": true,
+    "updatedAt": "2025-12-21T10:18:04Z"
+  },
+  {
+    "name": "cricket_sync_11",
+    "displayName": "Cricket Sync 11",
+    "description": "A Flutter/Dart mobile app for managing and syncing an 11-player cricket lineup.",
+    "stack": ["Flutter", "Dart"],
+    "private": true,
+    "updatedAt": "2025-12-20T12:31:42Z"
+  },
+  {
+    "name": "voter-list-data-extraction-tool",
+    "displayName": "Voter List Data Extraction Tool",
+    "description": "A PDF OCR desktop GUI application that extracts voter information from publicly available Election Commission of India documents for data-verification workflows.",
+    "stack": ["Python", "OCR", "PDF Processing", "GUI"],
+    "private": true,
+    "updatedAt": "2025-08-24T16:46:15Z"
+  },
+  {
+    "name": "software-engineer-flashcards-lms",
+    "displayName": "CodeCards — Flashcards LMS",
+    "description": "A mobile-first flashcard learning system for software engineers with job-role-based learning paths, encrypted content (PBKDF2/XOR), and text-to-speech playback.",
+    "stack": ["JavaScript", "Mobile-first Web", "Encryption", "Text-to-Speech"],
+    "private": true,
+    "updatedAt": "2025-07-31T05:31:56Z"
+  },
+  {
+    "name": "88-student-simulator",
+    "displayName": "AI Student Simulator",
+    "description": "An interactive teaching-practice platform that uses local LLMs (via Ollama) to simulate realistic student behavior — questions, confusion, and clarifications — during mock teaching sessions.",
+    "stack": ["JavaScript", "Ollama", "Local LLMs"],
+    "private": true,
+    "updatedAt": "2025-07-18T11:47:16Z"
+  },
+  {
+    "name": "hls-memorization-app",
+    "displayName": "Memorization Challenge Platform",
+    "description": "A gamified memorization web app (Node.js + React) with video-based verification, speech-to-text screening, manual review workflows, a paid competition mode, and in-app ads; grew out of an earlier React Native prototype (PracticeMemorization).",
+    "stack": ["Node.js", "React.js", "Speech-to-Text", "Payments"],
+    "private": true,
+    "updatedAt": "2025-05-15T06:38:47Z"
+  },
+  {
+    "name": "hls-backend",
+    "displayName": "E-Learning Backend API",
+    "description": "Node.js/Express/Sequelize backend for an e-learning platform on PostgreSQL, covering auth, course management, enrollment, lessons, quizzes, and coding-activity submissions.",
+    "stack": ["Node.js", "Express", "Sequelize", "PostgreSQL"],
+    "private": true,
+    "updatedAt": "2024-12-31T11:38:08Z"
+  },
+  {
+    "name": "PERN-STACK-YELP-CLONE",
+    "displayName": "PERN Stack Yelp Clone",
+    "description": "A full-stack Yelp-style review platform clone built on the PERN stack (PostgreSQL, Express, React, Node.js), containerized with Docker Compose.",
+    "stack": ["PostgreSQL", "Express", "React", "Node.js", "Docker Compose"],
+    "private": true,
+    "updatedAt": "2024-07-29T05:15:13Z"
+  },
+  {
+    "name": "OCR-Implementation",
+    "displayName": "OCR Implementation",
+    "description": "A standalone Python utility implementing optical character recognition for document text extraction.",
+    "stack": ["Python", "OCR"],
+    "private": true,
+    "updatedAt": "2024-06-08T08:13:18Z"
+  },
+  {
+    "name": "dappazon",
+    "displayName": "Dappazon",
+    "description": "A decentralized Amazon-style marketplace demo with Solidity smart contracts, a Hardhat/Ethers.js dev workflow, and a React frontend.",
+    "stack": ["Solidity", "Hardhat", "Ethers.js", "React"],
+    "private": false,
+    "url": "https://github.com/RajeshKumar11/dappazon",
+    "updatedAt": "2024-04-12T10:31:44Z"
+  },
+  {
+    "name": "openemr-node-react",
+    "displayName": "OpenEMR Node/React Integration",
+    "description": "An exploratory integration layer connecting the OpenEMR healthcare records system to a Node.js/React stack.",
+    "stack": ["PHP", "Node.js", "React", "Healthcare"],
+    "private": true,
+    "updatedAt": "2024-03-20T17:15:54Z"
+  },
+  {
+    "name": "MathematicsGamesExpo",
+    "displayName": "Mathematics Games (React Native)",
+    "description": "A cross-platform mobile math game for kids, built with React Native/Expo; iterated from an earlier bare React Native prototype (MathematicsGamesRN).",
+    "stack": ["React Native", "Expo", "JavaScript"],
+    "private": false,
+    "url": "https://github.com/RajeshKumar11/MathematicsGamesExpo",
+    "updatedAt": "2023-12-17T18:16:45Z"
+  },
+  {
+    "name": "VideoTextAnimation",
+    "displayName": "Video Text Animation",
+    "description": "A Python tool that overlays animated, typing-style text captions on top of existing video.",
+    "stack": ["Python", "Video Processing"],
+    "private": true,
+    "updatedAt": "2023-12-07T16:38:15Z"
+  },
+  {
+    "name": "nestjs-auth-demo",
+    "displayName": "NestJS Auth Demo",
+    "description": "A small public demo implementing authentication in NestJS, used to try out the framework's module and guard patterns.",
+    "stack": ["NestJS", "TypeScript"],
+    "private": false,
+    "url": "https://github.com/RajeshKumar11/nestjs-auth-demo",
+    "updatedAt": "2023-10-08T17:17:55Z"
+  },
+  {
+    "name": "kids-learning-app",
+    "displayName": "Kids Learning App",
+    "description": "A JavaScript-based kids' learning guide app, evolved across two iterations covering arithmetic and guided learning content.",
+    "stack": ["JavaScript"],
+    "private": true,
+    "updatedAt": "2023-08-27T05:47:27Z"
+  }
+]
