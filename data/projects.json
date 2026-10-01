@@ -1,13 +1,5 @@
 [
   {
-    "name": "Infant-Jesus-Shrine-Emjala",
-    "displayName": "Infant Jesus Shrine, Emjala — Website",
-    "description": "A bilingual (English/Telugu) static React site for a community shrine, with client-side routing and no backend or server dependencies.",
-    "stack": ["React", "Vite", "i18n"],
-    "private": true,
-    "updatedAt": "2026-09-25T13:31:28Z"
-  },
-  {
     "name": "tg-school",
     "displayName": "TG School — TS Board Learning Platform",
     "description": "Free, static, zero-backend learning web app for Telangana State Board students, pairing a Vite/TypeScript frontend with a Python content pipeline.",
@@ -67,14 +59,6 @@
     "updatedAt": "2026-01-17T09:41:41Z"
   },
   {
-    "name": "cto_mastery",
-    "displayName": "CTO Mastery",
-    "description": "A Flutter mobile app teaching technology-leadership skills through 45 bite-sized lessons, 225 spaced-repetition flashcards, and gamification.",
-    "stack": ["Flutter", "Dart", "Spaced Repetition"],
-    "private": true,
-    "updatedAt": "2025-12-21T10:18:04Z"
-  },
-  {
     "name": "cricket_sync_11",
     "displayName": "Cricket Sync 11",
     "description": "A Flutter/Dart mobile app for managing and syncing an 11-player cricket lineup.",
@@ -125,7 +109,7 @@
   {
     "name": "PERN-STACK-YELP-CLONE",
     "displayName": "PERN Stack Yelp Clone",
-    "description": "A full-stack Yelp-style review platform clone built on the PERN stack (PostgreSQL, Express, React, Node.js), containerized with Docker Compose.",
+    "description": "A tutorial-based Yelp-style review platform clone built on the PERN stack (PostgreSQL, Express, React, Node.js) to practice full-stack patterns, containerized with Docker Compose.",
     "stack": ["PostgreSQL", "Express", "React", "Node.js", "Docker Compose"],
     "private": true,
     "updatedAt": "2024-07-29T05:15:13Z"
@@ -141,7 +125,7 @@
   {
     "name": "dappazon",
     "displayName": "Dappazon",
-    "description": "A decentralized Amazon-style marketplace demo with Solidity smart contracts, a Hardhat/Ethers.js dev workflow, and a React frontend.",
+    "description": "A tutorial-based decentralized Amazon-style marketplace demo, built to learn Solidity smart contracts with a Hardhat/Ethers.js dev workflow and a React frontend.",
     "stack": ["Solidity", "Hardhat", "Ethers.js", "React"],
     "private": false,
     "url": "https://github.com/RajeshKumar11/dappazon",
