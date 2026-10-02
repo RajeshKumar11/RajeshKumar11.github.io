@@ -1,5 +1,15 @@
 [
   {
+    "name": "agentic-graphs",
+    "displayName": "Agentic Graphs — 58 Production-Style Agent Apps",
+    "description": "A library of 58 independent LangGraph agent applications spanning 14 sectors (healthcare, finance, e-commerce, automotive, legal, government, HR, and more), each with its own FastAPI service, Streamlit UI, test suite, and evals.",
+    "stack": ["Python", "LangGraph", "FastAPI", "Streamlit", "OpenRouter", "Pytest"],
+    "impact": "Enforces a free-models-only policy (OpenRouter :free models) in code with a deterministic offline fallback chain for every agent; 2,036 offline tests passing, every agent also verified live. Sprint log documents real failure modes found and fixed across all 58 apps (chain-of-thought leaking into user-facing replies, reasoning exhausting the token budget) as a shared contract.",
+    "private": false,
+    "url": "https://github.com/RajeshKumar11/agentic-graphs",
+    "updatedAt": "2026-10-02T03:53:11Z"
+  },
+  {
     "name": "tg-school",
     "displayName": "TG School — TS Board Learning Platform",
     "description": "Free, static, zero-backend learning web app for Telangana State Board students, pairing a Vite/TypeScript frontend with a Python content pipeline.",
