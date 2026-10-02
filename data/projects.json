@@ -5,6 +5,7 @@
     "description": "Free, static, zero-backend learning web app for Telangana State Board students, pairing a Vite/TypeScript frontend with a Python content pipeline.",
     "stack": ["TypeScript", "Vite", "Node.js", "Python", "Vitest"],
     "impact": "Solo-built end-to-end: product design, content pipeline, and frontend.",
+    "liveUrl": "https://tg.hlslive.in/",
     "private": true,
     "updatedAt": "2026-09-24T07:19:29Z"
   },
@@ -96,6 +97,7 @@
     "displayName": "Memorization Challenge Platform",
     "description": "A gamified memorization web app (Node.js + React) with video-based verification, speech-to-text screening, manual review workflows, a paid competition mode, and in-app ads; grew out of an earlier React Native prototype (PracticeMemorization).",
     "stack": ["Node.js", "React.js", "Speech-to-Text", "Payments"],
+    "liveUrl": "https://www.hlslive.in/",
     "private": true,
     "updatedAt": "2025-05-15T06:38:47Z"
   },

@@ -201,6 +201,7 @@ code {
 .project-card .stack-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; }
 .stack-tag { font-family: var(--mono); font-size: 0.7rem; color: var(--accent); background: var(--accent-dim); padding: 0.2rem 0.5rem; border-radius: 4px; }
 .private-badge { align-self: flex-start; font-family: var(--mono); font-size: 0.7rem; color: #f0883e; border: 1px solid #f0883e; padding: 0.15rem 0.5rem; border-radius: 4px; }
+.live-link { font-family: var(--mono); font-size: 0.8rem; font-weight: 600; margin-top: 0.1rem; }
 
 .projects-fallback { color: var(--text-dim); }
 

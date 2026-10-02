@@ -23,6 +23,10 @@
       ? `<p class="impact">${escapeHtml(project.impact)}</p>`
       : '';
 
+    const liveLinkHtml = project.liveUrl
+      ? `<a class="live-link" href="${escapeAttr(project.liveUrl)}" target="_blank" rel="noopener">Live site &rarr;</a>`
+      : '';
+
     return `
       <div class="project-card" data-visibility="${project.private ? 'private' : 'public'}">
         ${privateBadge}
@@ -30,6 +34,7 @@
         <p>${escapeHtml(project.description)}</p>
         ${impactHtml}
         <div class="stack-tags">${stackTags}</div>
+        ${liveLinkHtml}
       </div>
     `;
   }
